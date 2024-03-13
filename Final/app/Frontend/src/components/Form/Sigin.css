@@ -1,0 +1,100 @@
+/* Sigin.css */
+
+/* Container for the entire sign-in section */
+.sign-a {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set height to 100% of viewport height */
+}
+
+/* Container for the sign-in form */
+.sigin-container {
+  width: 400px;
+  height: 440px;
+  padding: 20px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #dfdfdf;
+  display: flex; /* Use flexbox */
+
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+/* Heading for the sign-in form */
+.sigin-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form group for input fields */
+
+/* Label for input fields */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input fields */
+/* Input fields */
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%; /* Adjust width as needed */
+  width: 300px; /* Add a maximum width if necessary */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit button */
+.sigin-form button[type="submit"] {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Submit button hover effect */
+.sigin-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Individual social icon */
+.social-icons i {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #333;
+}
+
+/* Style for Google icon */
+.social-icons .fa-google {
+  color: #db4437; /* Google red */
+}
+
+/* Style for Instagram icon */
+.social-icons .fa-instagram {
+  color: #405de6; /* Instagram blue */
+}
+
+/* Style for "x" icon */
+.social-icons .fa-times {
+  color: #f44336; /* Red color */
+}
+.sign-signup a {
+    color: #007bff;
+    text-decoration: none;
+  }
+

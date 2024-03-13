@@ -1,0 +1,120 @@
+/* ShopDetails.css */
+.shop-details-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    border: 1px solid black;
+    
+  }
+  
+  .shop-image  {
+    width: 850px;
+    height: 450px;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px 10px;
+    
+  }
+  .shop-image-inner{
+    width: 845px;
+    height: 445px;
+    border-radius: 5px;
+    background: grey;
+  }
+  
+  .shop-info {
+    flex-grow: 1;
+    position: relative;
+    
+    
+    
+  }
+  
+  .shop-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .shop-info p {
+    font-size: 16px;
+    color: #555;
+  }
+ /* ShopDetails.css */
+
+/* ... existing styles ... */
+
+.shopdetails-page {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .product-container {
+    width: 280px;
+    height: 300px;
+    margin: 10px;
+    display: felx;
+    flex-direction: row;
+    padding: 10px 10px ;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .shop-image1{
+    width: 270px;
+    height: 70%;
+    background: grey;
+    border-radius: 5px;
+  }
+  
+  .product-container img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .product-container h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .product-container p {
+    font-size: 16px;
+    color: #555;
+  }
+.shopdetails-pricecart{
+    padding: 5px 5px;
+    height: 30px;
+    border: 1px solid black;
+
+}
+.product-btn-cart{
+  color: black;
+  padding :5px 5px;
+  border-radius: 3px;
+  background: rgb(241, 91, 3);
+  border: 1px solid black;
+  font-weight: 500px;
+  font-size: 15px;
+  
+}
+.product-btn-cart:hover{
+  padding: 6px 6px;
+  background: green;
+
+}
+  .product-cart{
+    width: 90px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    margin-left: 180px;
+    margin-top: 160px;
+  }
+
+  

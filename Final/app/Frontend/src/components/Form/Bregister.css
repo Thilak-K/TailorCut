@@ -1,0 +1,65 @@
+/* Business registration form container */
+.business-register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    padding: 20px 25px;
+  }
+  
+  /* Form heading */
+  .business-register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form fields */
+  .business-register-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .business-register-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  
+  .business-register-container input[type="text"],
+  .business-register-container input[type="tel"],
+  .business-register-container input[type="email"],
+  .business-register-container input[type="password"],
+  .business-register-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Gender select */
+  .business-register-container select {
+    appearance: none;
+    padding: 10px;
+  }
+  
+  /* Submit button */
+  .business-register-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Submit button hover effect */
+  .business-register-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
